@@ -1098,6 +1098,9 @@ export default function TodoList() {
 
 <InlineFilter filters={["angular"]}>
 
+You can also use `observeQuery` to subscribe to a live feed of your backend data. Let's refactor the code to use a real-time observeQuery instead.
+
+
 ```ts title="src/app/todos/todos.component.ts"
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
